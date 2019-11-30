@@ -47,11 +47,11 @@ public class TheRiddler {
 				String riddle5 =	JOptionPane.showInputDialog(null,"I'm tall when I'm young and I'm short when I'm old. What am I?");
 			
 				// 4. If they got the answer right, pop up "correct!" and increase the score by one
-				if (riddle5.equalsIgnoreCase("A fire")) {
+				if (riddle5.equalsIgnoreCase("A candle")) {
 					JOptionPane.showMessageDialog(null, "Correct!!!");
 					score ++;
 				}else {
-					JOptionPane.showMessageDialog(null, "Sorry, the anwser is a fire.");
+					JOptionPane.showMessageDialog(null, "Sorry, the anwser is a candle.");
 		// 6. Add some more riddles
 
 		// 2. Make a pop up to show the score.
